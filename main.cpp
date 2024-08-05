@@ -84,7 +84,7 @@ int main(int argc, char *argv[]) {
     		numFloorsToVisit = argc - 2;
           	floorsToVisit = new int[numFloorsToVisit];
           	for (int i = 0; i < numFloorsToVisit; i++){
-              	floorsToVisit[numFloorsToVisit] = atoi(argv[i+2]);
+              		floorsToVisit[i] = atoi(argv[i+2]);
           	}
           
         }else{
